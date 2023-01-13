@@ -1,6 +1,6 @@
 # go-noname-login-api
 
-Noname login service ported from PHP to Go
+Experiment - Noname login service ported from PHP to Go
 
 It requires [dev-core](https://gitlab.*********.com/noname/dev-core) to work
 
