@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  go-login-api:
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: dev
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    networks:
+      - dev-core_public
+    env_file:
+      - .env
+    ports:
+      - "1323:1323"
+
+networks:
+  dev-core_public:
+    external: true
