@@ -1,4 +1,4 @@
-# go-login-api
+# go-noname-login-api
 
 Noname login service ported from PHP to Go
 
